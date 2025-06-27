@@ -124,7 +124,7 @@
 
         orientation90_layer {
             bindings = <
-&lt_mkp 10 MB3  &mkp MB2  &mkp MB1  &mo 8  &mo 9  &mo 11
+&lt_mkp 10 MB3  &mkp MB1  &mkp MB2  &mo 8  &mo 9  &mo 11
             >;
         };
 
@@ -205,6 +205,12 @@
 &to 2  &to 4  &to 6  &to 0  &to 5  &trans
             >;
         };
+
+        mediaControl90_LAYER {
+            bindings = <
+&kp SPACE  &kp LEFT_ARROW  &kp RIGHT_ARROW  &mo 8  &mo 9  &mo 11
+            >;
+        };
     };
 };
 
@@ -218,6 +224,16 @@
             bindings = <&mo 10>;
             key-positions = <1 2>;
             timeout-ms = <50>;
+        };
+
+        ORT_MDC_90 {
+            bindings = <&to 11>;
+            key-positions = <0 1>;
+        };
+
+        MDC_ORT_90 {
+            bindings = <&to 11>;
+            key-positions = <0 2>;
         };
     };
 };
