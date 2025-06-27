@@ -228,11 +228,16 @@
 
         ORT_MDC_90 {
             bindings = <&to 11>;
-            key-positions = <0 1>;
+            key-positions = <1 2>;
         };
 
         MDC_ORT_90 {
             bindings = <&to 11>;
+            key-positions = <0 2 1>;
+        };
+
+        close_tab {
+            bindings = <&kp LC(W)>;
             key-positions = <0 2>;
         };
     };
