@@ -220,12 +220,6 @@
 
         // Key1、2同時押しでスクロールレイヤーへ
 
-        combo_layer9 {
-            bindings = <&mo 10>;
-            key-positions = <1 2>;
-            timeout-ms = <50>;
-        };
-
         ORT_MDC_90 {
             bindings = <&to 12>;
             key-positions = <1 2>;
@@ -234,11 +228,6 @@
         MDC_ORT_90 {
             bindings = <&to 2>;
             key-positions = <0 2 1>;
-        };
-
-        close_tab {
-            bindings = <&kp LC(W)>;
-            key-positions = <0 2>;
         };
     };
 };
