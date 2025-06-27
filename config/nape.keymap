@@ -227,12 +227,12 @@
         };
 
         ORT_MDC_90 {
-            bindings = <&to 11>;
+            bindings = <&to 12>;
             key-positions = <1 2>;
         };
 
         MDC_ORT_90 {
-            bindings = <&to 11>;
+            bindings = <&to 2>;
             key-positions = <0 2 1>;
         };
 
